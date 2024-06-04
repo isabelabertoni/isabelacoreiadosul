@@ -1,0 +1,102 @@
+<!Doctype html>
+<html lang="pt">
+
+<head>
+    <title>CONTATO</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inicial">
+    <link rel="icon" type="image/jpg" href="img/icone_js.png">
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <script language="javascript" type="text/javascript">
+        function validar () { 
+        var nome = form1.nome.value;
+        var email = form1.email.value;
+        var senha = form1.senha.value;
+        var repita = form1.repita.value;
+        
+        if (nome == "") {
+            alert('Por favor, preencha o campo com o seu nome!');
+            form1.nome.focus();
+        return false;
+        }
+        
+        if (email == "") {
+            alert('Preencha o campo com o seu email!');
+            form1.email.focus();
+        return false;
+        }
+
+        if (senha == "") {
+            alert('Preencha o campo com a sua senha!');
+            form1.senha.focus();
+        return false;
+        }
+
+        if (repita == "") {
+            alert('Preencha o campo de confirmação da sua senha!');
+            form1.repita.focus();
+        return false;
+        }
+    }
+    </script>
+    </head>
+    <body>
+        <div id="all">
+             <ul class="menu">
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\home.html">Home</a></li>
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\sobre.html">Sobre</a></li>
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\geografia.html">Geografia</a></li>
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\demografia.html">Demografia</a></li>
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\economia.html">Economia</a></li>
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\turismo.html">Turismo</a></li>
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\curiosidades.html">Curiosidades</a></li>
+                <li><a href="\Atividades de PW\2°BIM\Site Coreia\codigos\contato.html">Contato</a></li>
+            </ul>
+        </div>
+            <center><br><h1 align="center"><b>Ficou com dúvidas? Achou algum erro? Fale conosco!</b></h1>
+            <br>
+            <hr>
+            <br>
+            <br>
+            <form name="form1" action="confirmaenvio.html" method="post">
+            Nome: <input name="nome" type="text"><br><br>
+            Email: <input name="email" type="text"><br><br>
+            Senha: <input name="senha" type="text"><br><br>
+            Repita a senha: <input name="repita" type="text"><br><br>
+            <br>
+            Deixe seu comentário: <br>
+            <textarea rows="15" cols="60"></textarea><br>
+            
+            <input type="submit" value="Enviar" onclick="return validar()">
+            <input type="reset" name="limpar" value="Limpar">
+            </form> 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            </center>
+            <center><h5>Isabela Bertoni - 2024 - &copy Todos os direitos reservados.<br>
+            <i>Trabalho acadêmico sem fins lucrativos</i></h5></center>
+          <div align="right"><a href="#"><img src="\Atividades de PW\2°BIM\Site Coreia\img\sobe9.png" width="2%"^></a></div>
+    </body>
+</html>

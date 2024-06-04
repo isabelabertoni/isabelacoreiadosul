@@ -1,0 +1,48 @@
+*{
+     margin: 0px;
+     padding: 0px;
+}
+
+body{   font-family: "Boldoni MT";
+        background-color:#6a6cf7bd;
+    }
+a{ text-decoration: none; /*tira sublinhado do link*/
+   color: #000;
+   text-transform: uppercase; /*transforma texto do link em maiúsculo*/ 
+   }
+
+   a:hover{
+    color: #000
+}
+
+#all{
+            width: 1337px;
+            height: 70px;
+            line-height: 70px; /* centraliza na vertical */ 
+            /* background-color: #flflfl; teste essa cor */
+            background-color: #ffffffdd;
+            border: 3px dashed #ff0000be;
+            margin: 0 auto;
+        }
+ ul.menu{
+            text-align: center; /* centraliza na horizontal */
+        }   
+
+ ul.menu li{
+            display: inline-block; /* centraliza na horizontal */
+            margin: 0px 5px;
+        }
+
+ ul.menu li a{
+              background-color: #ff0000be;
+              border-radius: 6px; /*bordas arredondadas*/
+              padding: 10px 14px;
+              color: #000000;
+            }
+
+ul.menu li a:hover{
+        background-color: #000dff90;
+        }
+
+textarea{resize: none;
+    }
